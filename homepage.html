@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jillian's Portfolio: Showcasing projects, skills, and knowledge in data analytics fields.">
+    <meta name="author" content="Jillian Phan">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta property="og:title" content="Jillian's Portfolio">
+    <meta property="og:description" content="Discover Jillian's amazing projects and achievements.">
+    <meta property="og:type" content="website">
+    <title>jillian's portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Logo -->
+        <a href="./homepage.html" class="header-logo" aria-label="Homepage Link">JILLIAN</a>
+    
+        <!-- Header Navigation -->
+        <nav class="header-nav" role="navigation" aria-label="Header Navigation">
+            <ul class="header-nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#latest-works" class="nav-link">Latest Works</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <header class="hero-header">
+                    <h1 class="hero-title">JILLIAN'S <br> PORTFOLIO</h1>
+                    <p class="hero-text">
+                        Welcome to my portfolio! Here, you'll find a showcase of my skills and achievements, 
+                        along with insights and knowledge from the world of data.
+                    </p>
+                </header>
+                
+                <a href="#projects" class="btn" aria-label="Explore My Projects">Explore My Projects</a>
+        
+                <div class="hero-image">
+                    <img src="images/hero-image.png" alt="Hero illustration representing Jillian's portfolio">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a passionate data analyst with experience in data visualization, statistical analysis, and machine learning. My goal is to turn complex data into actionable insights.</p>
+            </div>
+        </section>
+
+        <section id="latest-works">
+            <div class="container">
+                <h2>Projects</h2>
+                
+                <div class="project">
+                    <h3>EdTech Web Analytics</h3>
+                    <ul>
+                        <li>Integrated raw data from three separate tables into a unified, structured format using Excel and Microsoft SQL
+                            Server, ensuring seamless data flow and improving accessibility for analysis.</li>
+                        <li>Cleaned, standardized, and transformed data to ensure consistency and accuracy.</li>
+                        <li>Created interactive PowerBI dashboards to track website performance in August, focusing on key metrics like
+                            pageviews, click-through rate, and conversion rate.</li>
+                        <li>Presented a comprehensive report with clear findings and visualizations, highlighting key web traffic metrics and trends.</li>
+                        <li>Tools: SQL, PowerBI</li>
+                    </ul>
+                    <a href="https://github.com/ptqnhu/EdTech-Web-Analytics">View Project</a>
+                </div>
+
+                <div class="project">
+                    <h3>Customer Segmentation using RFM Analysis</h3>
+                    <ul>
+                        <li>Extracted and transformed OLTP data to OLAP format in Microsoft SQL Server</li>
+                        <li>Utilized RFM metrics to divide customers into 8 segments, enabling the identification of high-value customers and potential churn risks.</li>
+                        <li>Developed a dashboard using visualization tool (Power BI) to uncover insights and then presented these insights in a report, guiding targeted marketing strategies and optimizing resource allocation for maximum impact.</li>
+                        <li>Tools: SQL</li>
+                    </ul>
+                    <a href="https://github.com/ptqnhu/Customer-Segmentation-Using-RFM-Analysis">View Project</a>
+                </div>
+
+                <div class="project">
+                    <h3>Dashboard and Database Design</h3>
+                    <ul>
+                        <li>Built and optimized a database in Microsoft SQL Server, creating views and stored procedures to reduce query time by 40% and improve data retrieval efficiency.</li>
+                        <li>Queried and analyzed data using SQL and visualized insights on dashboards, enabling more effective and datadriven business management.</li>
+                        <li>Tools: SQL</li>
+                    </ul>
+                    <a href="https://github.com/ptqnhu/Pizzeria">View Project</a>
+                </div>
+
+                <div class="project">
+                    <h3>Predicting model | Used car price data</h3>
+                    <ul>
+                        <li>Implementing ensemble machine learning model (Bagging Regressor with XGBoost as base estimator) to predict used car prices.</li>
+                        <li>Conducted exploratory data analysis and executed feature engineering techniques, including handling missing data, label encoding, log transformation, and imputation, to enhance model performance and reliability.</li>
+                        <li>Tools: Python, pandas, matplotlib</li>
+                    </ul>
+                    <a href="https://github.com/ptqnhu/Machine-Learning-with-Python/tree/main/Used%20Car%20Price%20Prediction">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+
+            <div class="contact-section-links">
+                <div class="link-wrapper">
+                    <img class="link-icon" src="icons/mail.svg">
+                    <div class="link-title">EMAIL</div>
+                    <a class="link-path" href="mailto:ptqnhu.contact@gmail.com" target="_blank" rel="noreferrer">
+                        <span>ptqnhu.contact@gmail.com</span>
+                        <span class="underline" style="width: 0%;"></span>
+                    </a>
+                </div>
+
+                <div class="link-wrapper">
+                    <img class="link-icon" src="icons/github.svg">
+                    <div class="link-title">GITHUB</div>
+                    <a class="link-path" href="https://github.com/ptqnhu" target="_blank" rel="noreferrer">
+                        <span>github.com/ptqnhu</span>
+                        <span class="underline" style="width: 0%;"></span>
+                    </a>
+                </div>
+
+                <div class="link-wrapper">
+                    <img class="link-icon" src="icons/linkedin.svg">
+                    <div class="link-title">LINKEDIN</div>
+                    <a class="link-path" href="https://www.linkedin.com/in/ptqnhu/" target="_blank" rel="noreferrer">
+                        <span>linkedin.com/in/ptqnhu</span>
+                        <span class="underline" style="width: 0%;"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <!-- Logo -->
+            <a href="./homepage.html" class="footer-logo" aria-label="Homepage Link">JILLIAN PHAN</a>
+        
+            <!-- Footer Main Navigation -->
+            <nav class="footer-main-nav" role="" aria-label="Footer Main Navigation">
+                <ul class="footer-main-nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#latest-works" class="nav-link">Latest Works</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <!-- Footer Line Break -->
+            <hr class="footer-line-break">
+        
+            <!-- Footer Container -->
+            <div class="footer-container">
+                <p class="copy-right">&copy; 2024 Jillian Phan. All rights reserved.</p>
+                
+                <!-- Footer Secondary Navigation -->
+                <nav class="footer-secondary-nav" aria-label="Footer Secondary Navigation">
+                    <ul class="footer-secondary-nav-menu">
+                        <li><a href="#privacy" class="secondary-nav-link">Privacy Policy</a></li>
+                        <li><a href="#terms" class="secondary-nav-link">Terms of Service</a></li>
+                        <li><a href="#cookie" class="secondary-nav-link">Cooking Settings</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
