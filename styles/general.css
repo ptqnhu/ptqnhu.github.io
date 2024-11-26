@@ -17,14 +17,14 @@
 /* Font Face Definitions */
 @font-face {
     font-family: 'Trovas';
-    src: url('fonts/Trovas.woff2') format('woff2');
+    src: url('./fonts/Trovas.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
   
 @font-face {
     font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Regular.woff2') format('woff2');
+    src: url('./fonts/Montserrat-Regular.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
 }
