@@ -1,0 +1,130 @@
+/* General Setting */
+
+/* Color Variable */
+:root {
+    --white: #FFFFF0;
+    --black: #0F0E0F;
+    --light-grey: #f2f2f2; 
+    --chocolate-cosmos: #561A1C;
+    --ivory: #FEFDF1;
+    --spanish-grey: #8E989B;
+    --brandy-rose: #AD837A;
+    --header-height: 60px;
+    --transition-speed: 0.3s;
+}
+
+
+/* Font Face Definitions */
+@font-face {
+    font-family: 'Trovas';
+    src: url('fonts/Trovas.otf') format('otf');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.otf') format('otf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* Body and Global Styles */
+body {
+    font-family: Montserrat, Times;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 0 70px;
+}
+
+/* Headings Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Trovas, sans-serif;
+    color: var(--black);
+}
+
+
+/* Heading Sizes */
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.75em; }
+
+
+/* List Styles */
+ul, ol {
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    list-style-position: inside;
+}
+
+
+/* Anchor Tag Styles */
+a {
+    color: var(--black);
+    text-decoration: none;
+    transition:
+        opacity var(--transition-speed) ease,
+        transform var(--transition-speed) ease,
+        color var(--transition-speed) ease;
+}
+
+a:hover {
+    opacity: 0.8;
+    transform: translateY(-3px);
+    color: var(--spanish-grey);
+}
+
+a:focus {
+    outline: 2px solid var(--spanish-grey);
+    outline-offset: 2px;
+}
+
+a:active {
+    opacity: 0.7;
+    color: var(--primary-color);
+}
+
+
+/* Accessibility Improvements */
+:focus-visible {
+    outline: 3px solid var(--spanish-grey);
+    outline-offset: 3px;
+}
+
+
+/* Responsive Design Enhancements */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+}

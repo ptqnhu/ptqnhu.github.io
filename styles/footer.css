@@ -1,0 +1,87 @@
+/* General Footer Styles */
+.footer {
+    padding: 30px 0;
+}
+
+
+/* Logo Styles */
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Trovas, sans-serif;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    text-decoration: none;
+    transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.footer-logo:hover {
+    opacity: 0.8;
+    transform: scale(1.08);
+}
+
+
+/* Main Navigation Menu */
+.footer-main-nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 20px 0;
+}
+
+
+/* Navigation Link Styles */
+.nav-link {
+    font-size: 1rem;
+    letter-spacing: 0.25px;
+}   
+
+
+/* Line Break Styles */
+.footer-line-break {
+    border: none;
+    border-top: 1px solid var(--spanish-grey);
+    margin: 20px 0;
+    width: 100%;
+}
+
+
+/* Footer Container (for secondary navigation) */
+.footer-container {
+    display: flex;
+    flex: 2 1;
+    justify-content: space-between;
+}
+
+
+/* Secondary Navigation Menu */
+.footer-secondary-nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+
+    .footer-main-nav-menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-logo {
+        font-size: 1.2rem;
+        padding: 10px 0;
+    }
+}
