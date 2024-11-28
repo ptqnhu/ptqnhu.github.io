@@ -144,7 +144,7 @@ section {
 }
 
 .project {
-    flex: 0 0 100%;
+    flex: 0 0 auto;
     min-width: 150px;
     width: 350px;
     overflow-wrap: break-word;
